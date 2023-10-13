@@ -33,7 +33,7 @@ And it's a little confusing because we don't have a clear description
 of how to correctly transform arrays into JSON. For `Employees` and `Statements`
 we have parent nodes `E-list` and `Salary` and I can put them in json in appropriate
 fields like: `{ e-list: [Employees] }`, `{ salary: [Statements] }` but for 
-`Donation` parent node is `Employee`, and I can't put donations array directly
+`Donation`, parent node is `Employee`, and I can't put donations array directly
 to `Employee` node, so if employee has only one `Donation` I can't recognize is it employee's 
 array or just some separate object-field. 
 
