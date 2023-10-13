@@ -37,7 +37,7 @@ fields like: `{ e-list: [Employees] }`, `{ salary: [Statements] }` but for
 to `Employee` node, so if employee has only one `Donation` I can't recognize is it employee's 
 array or just some separate object-field. 
 
-Since I can't directly tell the difference between an Array-node and an
+Since I can't directly distinguish the difference between an Array-node and an
 Object-node structure from the dump file, I should rely only on the task 
 description and node names. As a result, I hardcoded the names of the Array's
 fields in the code, so if we add a new field that is an array,
