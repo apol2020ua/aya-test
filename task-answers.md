@@ -38,7 +38,7 @@ to `Employee` node, so if employee has only one `Donation` I can't recognize is 
 array or just some separate object-field. 
 
 Since I can't directly tell the difference between an Array-node and an
-Object-node structure from the dump file, I have to rely solely on the task 
+Object-node structure from the dump file, I should rely only on the task 
 description and node names. As a result, I hardcoded the names of the Array's
 fields in the code, so if we add a new field that is an array,
 we need to add it name to the code.
